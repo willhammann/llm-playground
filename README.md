@@ -50,6 +50,9 @@ We'll use two LLM providers. Both have free tiers.
 
 Once you have both keys, open your `.Renviron` file in RStudio by running this in the console:
 
+#grog: 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
+#gemini: AIzaSyCgd1sRoSpuxiVruqfyBRlJQ_BfIpDIzNs
+
 ```r
 usethis::edit_r_environ()
 ```
@@ -57,8 +60,10 @@ usethis::edit_r_environ()
 Add these two lines, replacing the placeholder values with your actual keys (no quotemarks:
 
 ```
-GROQ_API_KEY=your_key_here
-GOOGLE_API_KEY=your_key_here
+GROQ_API_KEY=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
+
+GOOGLE_API_KEY=AIzaSyCgd1sRoSpuxiVruqfyBRlJQ_BfIpDIzNs
+
 ```
 
 Save the file, then restart R (Session menu in RStudio) so the keys take effect.
