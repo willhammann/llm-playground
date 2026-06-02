@@ -1,0 +1,21 @@
+# R
+.Rhistory
+.Rdata
+.RData
+.Rproj.user
+.httr-oauth
+*.Rproj
+
+# Python (legacy)
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Environment
+.env
+.Renviron
+
+# OS
+.DS_Store
+Thumbs.db
